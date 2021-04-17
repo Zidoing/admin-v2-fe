@@ -2,8 +2,13 @@ import React from "react";
 import ReactDOM from 'react-dom';
 import './index.css';
 import './index.scss';
+import 'font-awesome/css/font-awesome.min.css';
 
 ReactDOM.render(
-    <h1>hello world</h1>,
+    <div>
+        <i className="fa fa-address-book"></i>
+        <h1>hello s world</h1>
+    </div>
+    ,
     document.getElementById('app')
 );
